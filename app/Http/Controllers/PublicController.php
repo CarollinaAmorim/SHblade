@@ -19,7 +19,7 @@ class PublicController extends Controller
     |
     */
     
-    public function index(){
+    public function home(){
     
         return view('pages.index');
     
@@ -70,5 +70,7 @@ class PublicController extends Controller
     public function prog12(){return view('pages.progetto_12');}
     public function prog13(){return view('pages.progetto_13');}
     public function prog14(){return view('pages.progetto_14');}
+
+    //add new page
 
 }

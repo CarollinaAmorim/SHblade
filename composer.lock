@@ -1,11 +1,52 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea1fee525914154e6d6bbf071697b5a1",
+    "hash": "8ced9453bc549b306a6abe801879f40c",
+    "content-hash": "b7cf143133755c99513164b207b9c8a8",
     "packages": [
+        {
+            "name": "atemporale-next/workflow",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AtemporaleNEXT/Workflow.git",
+                "reference": "0d3bd61d02081b962945f43702dfeb26e9fb5b4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AtemporaleNEXT/Workflow/zipball/0d3bd61d02081b962945f43702dfeb26e9fb5b4c",
+                "reference": "0d3bd61d02081b962945f43702dfeb26e9fb5b4c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1",
+                "illuminate/database": "~5.1",
+                "illuminate/http": "~5.1",
+                "illuminate/support": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AtemporaleNEXT\\Workflow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alessandrotraversi",
+                    "email": "alessandro.traversi@hotmail.it"
+                }
+            ],
+            "description": "A simple starting point for laravel to work with elixir",
+            "time": "2016-01-22 01:56:22"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",

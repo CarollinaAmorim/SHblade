@@ -14,6 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\Inspire::class,
+        \App\Console\Commands\NewPublicLayout::class,
+        \App\Console\Commands\NewPublicPage::class
     ];
 
     /**

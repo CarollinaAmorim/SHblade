@@ -1,0 +1,68 @@
+// out: ../../../../public/css/sobre.css, compress: true,
+
+//richiamo i file less per ereditare le funzioni, ma senza stamparli 
+@import (reference) "../componenti/app.less";
+@import (reference) "../componenti/grid_system.less";
+
+//stampo le formattazioni generali di default
+@import "../componenti/start.less";
+
+//stampo le formattazioni dei componenti
+@import "../componenti/template.less";
+@import "../componenti/_template_fisso.less";
+
+//stampo le regole per questa pagina
+div#barra_destra > *{display: none !important;}
+
+
+article#sobre{
+    @media (min-width: 1366px){// schermi 1366 o superiori
+        background: url('../img/sobre/photo_simone_heringer5.png') top right no-repeat;
+    }
+    @media (max-width: 1360px){// schermi compresi tra 1280 e 1366
+        background: url('../img/sobre/photo_simone_heringer5.png') top right no-repeat;
+    }
+    @media (max-width: 1270px){// schermi inferiori a 1280
+        background: url('../img/sobre/photo_simone_heringer5.png') bottom right no-repeat;
+    }
+    p.generale{
+        .italic{.italic;}  
+    }
+    
+    a.b1{
+        .block;
+        .maiuscolo;
+        .bold;
+        color: #666;
+        opacity: 0.7;
+        border:#666 1px solid;
+        font-size: 0.9em;
+        padding:10px 5px 10px 5px;
+
+        @media (min-width: 1280px){// schermi 1280 o superiori
+            margin-top: 8%;
+            margin-left: @offset-3col;
+            width:@col-6;
+            .testo_centro;
+        }
+        @media (max-width: 1270px){// schermi inferiori a 1280
+            margin-top: 30%;
+            padding:10px 5px 10px 5px;
+            margin-left: 0;
+            width:auto;
+            .testo_sinistra;
+        }
+
+        &:hover{
+            opacity: 0.9;
+            color:#fff !important; 
+            background:@brand-verde;
+            border:@brand-verde 2px solid; 
+            -webkit-transition: all 2s ease !important;
+            -moz-transition: all 2 ease !important;
+            -ms-transition: all 2s ease !important;
+            -o-transition: all 2s ease !important;
+            transition: all 2s ease !important;
+         }
+    }
+}

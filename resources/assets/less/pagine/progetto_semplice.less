@@ -1,0 +1,15 @@
+// out: ../../../../public/css/progetto_a.css, compress: true,
+
+//richiamo i file less per ereditare le funzioni, ma senza stamparli 
+@import (reference) "../componenti/app.less";
+@import (reference) "../componenti/grid_system.less";
+
+//stampo le formattazioni generali di default
+@import "../componenti/start.less";
+
+//stampo le formattazioni dei componenti
+@import "../componenti/template.less";
+@import "../componenti/_base_progetti.less";
+
+//stampo le regole per questa pagina
+li#descrizione,li#concept,li#dettagli1,li#dettagli2{display:none !important;}

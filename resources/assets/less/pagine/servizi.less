@@ -1,0 +1,308 @@
+// out: ../../../../public/css/servizi.css, compress: true,
+
+//richiamo i file less per ereditare le funzioni, ma senza stamparli 
+@import (reference) "../componenti/app.less";
+@import (reference) "../componenti/grid_system.less";
+
+//stampo le formattazioni generali di default
+@import "../componenti/start.less";
+
+//stampo le formattazioni dei componenti
+@import "../componenti/template.less";
+@import "../componenti/_template_scroll_to.less";
+
+//stampo le regole per questa pagina
+div#barra_destra > *{display: none !important;}
+
+
+article.servizi{
+  ul{
+    .testo_centro;
+
+    @media (min-width: 1280px){// schermi 1280 o superiori
+      .relative;
+      .left50;
+      margin:3% 0 0 -455px;
+      .size(800px;150px);
+      padding: 10px;
+    }
+    @media (max-width: 1270px){// schermi inferiori a 1280
+      margin-top: 10%;
+      .size(@col-12;auto);
+      padding: 20px @col-1;
+      background-color: @brand-verde;
+    }
+
+    li{
+      @media (min-width: 1280px){// schermi 1280 o superiori
+        .square(150px);
+        .block;
+        .left;
+        margin-left: 66px;
+        background-color: rgba(250,250,250,1);
+        .box-shadow(0px 0px 5px rgba(0,0,0,.5));
+        .smusso(5px);
+        overflow: hidden;
+      }
+      @media (max-width: 1270px){// schermi inferiori a 1280
+        .size(@col-10;auto);
+        .testo_centro;
+        margin-bottom: 7%;
+        border-right:0;
+        color:#fff;
+      }
+
+      &:first-child{
+        margin-left: 109px;
+        @media (max-width: 1200px){
+          margin-left: 109px;
+        }
+      }
+      &:hover{
+        .box-shadow(0px 0px 2px rgba(0,0,0,.30));
+      }
+      a{
+        @media (min-width: 1280px){// schermi 1280 o superiori
+          .square(150px);
+          .block;
+          color:#666;
+        }
+        @media (max-width: 1270px){// schermi inferiori a 1280
+          .size(@col-10;auto);
+          .testo_centro;
+          margin-bottom: 7%;
+          border-right:0;
+          color:#fff;
+        }
+
+        img{
+          margin-top: 10%;
+        }
+
+        h2{
+
+          @media (min-width: 1280px){// schermi 1280 o superiori
+            font-size: 0.6em;
+            padding:0 20px;
+            font-weight: normal;
+          }
+          @media (max-width: 1270px){// schermi inferiori a 1280
+            font-size: 1.2em;
+          }
+
+          span{
+
+            @media (min-width: 1280px){// schermi 1280 o superiori
+              font-size: 1.1em;
+              .bold;
+              .maiuscolo;
+              margin:10% 0;
+              .block;
+            }
+            @media (max-width: 1270px){// schermi inferiori a 1280
+              font-size: 0.7em;
+              margin-bottom: 0;
+              .block;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+article.pac1, article.pac2, article.pac3 {
+  header{
+    h2{
+      margin-top: 0%; /*verifica responsive*/
+      margin-left: @offset-1col; /*verifica responsive*/
+      font-size:1.5em;
+    }
+  }
+  div.filetto_titoli{
+    margin-top: 0.2%; /*verifica responsive*/
+    .size(@col-3;5px); /*verifica responsive*/
+    background-color: @brand-verde;
+  }
+  p.specifico{
+
+    @media (min-width: 1280px){// schermi 1280 o superiori
+      .left;
+      margin-left: @offset-1col;
+      width: @col-2 + @sp;
+      height: 50%;
+      margin-top: 3%;
+      font-size: 0.75em;
+      line-height: 1.5em;
+      .testo_destra;
+      padding:0 50px 0 0;
+      border-right: 1px solid #ccc;
+    }
+    @media (max-width: 1270px){// schermi inferiori a 1280
+      margin-left: @offset-1col;
+      width: @col-5;
+      margin-top: 6%;
+      font-size: 0.95em;
+      line-height: 1.7em;
+      .testo_sinistra;
+    }
+    span.tasto_voce1,span.tasto_voce2,span.tasto_voce3{
+      .block;
+      margin-left: @offset-4col;
+      width: @col-8;
+      font-size:0.8em;
+      .maiuscolo;
+      padding: 5px 0 5px 0;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      vertical-align: middle;
+      color: #ddd;
+      &:hover{
+        color: #666;
+      }
+      span{
+        font-size: 0.8em;
+        .right;
+      }
+    }
+    span.tasto_voce1{
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+  }
+
+  .box_affiancato{
+    .right;
+    .size(@col-8;50%);
+    margin-top: 3%;
+
+    h3{
+      .right;
+      clear: right;
+      padding-right: 50px;
+      margin-right: @offset-1col;
+      height: 25px;
+    }
+    .filetto_titoli{
+      .right;
+      clear: right;
+      padding-right: 50px;
+      margin-right: @offset-1col;
+    }
+    p{
+      margin-top: 10%;
+      margin-right: @col-2;
+      font-size: 0.8em;
+      line-height: 1.5em;
+      .testo_colonna;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+body, html {
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+body, .onepage-wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 95%;
+  height: 95%;
+}
+
+.onepage-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  margin:80px 0 0 100px;
+  -webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper .section {
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-pagination {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  z-index: 999999;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.onepage-pagination li {
+  padding: 0;
+  text-align: center;
+}
+.onepage-pagination li a{
+  padding: 10px;
+  width: 4px;
+  height: 4px;
+  display: block;
+
+}
+.onepage-pagination li a:before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(0,0,0,0.85);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.onepage-pagination li a.active:before{
+  width: 10px;
+  height: 10px;
+  background: none;
+  border: 1px solid black;
+  margin-top: -4px;
+  left: 8px;
+}
+
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .section {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100%;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  //display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
+}

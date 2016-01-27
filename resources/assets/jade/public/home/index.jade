@@ -1,0 +1,14 @@
+include ./../../templates/mixin.jade
++extends('templates/public_layout')
++section('Title')
+    title Testo da inserire
++section('MetaDescription')
+    meta(name="description", content="aaa")/
++section('MetaKeywords')
+    meta(name="keywords", content="aaa, aaa, aaa")/
++section('cssPagina')
+    link(rel="stylesheet", href!="{{ asset('css/home.css') }}", type="text/css")/
++section('content')
+include ./_partial
++section('jsPagina')
+    script(src!="{{ asset('js/home.min.js')}}", type="text/javascript")

@@ -71,6 +71,24 @@ class PublicController extends Controller
     public function prog13(){return view('pages.progetto_13');}
     public function prog14(){return view('pages.progetto_14');}
 
-    //add new page
+    public function home(){
+        return view('public.home.index');
+    }
+public function contatti(){
+        return view('public.contatti.index');
+    }
+public function portfolio(){
+        return view('public.portfolio.index');
+    }
+public function servizi(){
+        return view('public.servizi.index');
+    }
+public function processo(){
+        return view('public.processo.index');
+    }
+public function sobre(){
+        return view('public.sobre.index');
+    }
+//add new page
 
 }

@@ -1,0 +1,20 @@
+include ./../../templates/mixin.jade
++extends('templates/public_layout')
+
++section('Title')
+    title Design de Igrejas - Primeira Igreja Presbiteriana de Belo Horizonte
+
++section('MetaDescription')
+    meta(name="description", content="Projeto Primeira Igreja Presbiteriana")/
+
++section('MetaKeywords')
+    meta(name="keywords", content="Reforma de Igreja, Projeto igrejas evangelicas, Projeto de igrejas, Design de interiores liturgicos BH, Decoraçao de Igrejas, Simone Heringer, Design de Interiores BH, Decoraçao BH")/
+
++section('cssPagina')
+    link(rel="stylesheet", href!="{{ asset('css/progetto_semplice.css') }}", type="text/css")/
+
++section('content')
+include ./_partial
+
++section('jsPagina')
+    script(src!="{{ asset('js/progetto.min.js')}}", type="text/javascript")

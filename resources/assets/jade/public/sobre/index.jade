@@ -1,14 +1,20 @@
 include ./../../templates/mixin.jade
 +extends('templates/public_layout')
+
 +section('Title')
-    title Testo da inserire
+    title Sobre Simone Heringer, Designer de Interiores e Paisagismo
+
 +section('MetaDescription')
-    meta(name="description", content="aaa")/
+    meta(name="description", content="Sobre Simone Heringer. Conheça mais sobre a Designer de Ambientes que está revolucionando os ambientes das Igrejas Evangélicas.")/
+
 +section('MetaKeywords')
-    meta(name="keywords", content="aaa, aaa, aaa")/
+    meta(name="keywords", content="Sobre Simone Heringer, Projetos Igrejas, Design de Igrejas evangélicas, reformas casas, design de interiores BH, design de ambientes, projeto de jardins, Designers Brasil, Designers de interiores BH")/
+
 +section('cssPagina')
     link(rel="stylesheet", href!="{{ asset('css/sobre.css') }}", type="text/css")/
+
 +section('content')
 include ./_partial
+
 +section('jsPagina')
     script(src!="{{ asset('js/sobre.min.js')}}", type="text/javascript")

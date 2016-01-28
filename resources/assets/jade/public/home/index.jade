@@ -1,14 +1,20 @@
 include ./../../templates/mixin.jade
 +extends('templates/public_layout')
+
 +section('Title')
-    title Testo da inserire
+    title Simone Heringer Designer - P&aacute;gina inicial do site
+
 +section('MetaDescription')
-    meta(name="description", content="aaa")/
+    meta(name="description", content="Simone Heringer Designer - P&aaccute;gina inicial")/
+
 +section('MetaKeywords')
-    meta(name="keywords", content="aaa, aaa, aaa")/
+    meta(name="keywords", content="Simone Heringer, Design de Interiores BH, Decoração BH, Reforma de casas, Escritórios de Design BH, Design de Ambientes, projetos de jardins, Projetos Igrejas Evangélicas, Site Designers de Interiores BH, Belo Horizonte")/
+
 +section('cssPagina')
     link(rel="stylesheet", href!="{{ asset('css/home.css') }}", type="text/css")/
+
 +section('content')
 include ./_partial
+
 +section('jsPagina')
     script(src!="{{ asset('js/home.min.js')}}", type="text/javascript")

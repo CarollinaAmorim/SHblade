@@ -1,14 +1,20 @@
 include ./../../templates/mixin.jade
 +extends('templates/public_layout')
+
 +section('Title')
-    title Testo da inserire
+    title Processo Criativo da Designer Simone Heringer
+
 +section('MetaDescription')
-    meta(name="description", content="aaa")/
+    meta(name="description", content="Por traz de tanta criatividade existe um processo. Qual será? Simone Heringer mostra o seu particular método para desenvolver seus incrèiveis projetos.")/
+
 +section('MetaKeywords')
-    meta(name="keywords", content="aaa, aaa, aaa")/
+    meta(name="keywords", content="metodo design de interiores, projetos para Igrejas Evangelicas, reformas igrejas evangelicas, reforma casas, decoração de lojas, design de interiores BH, processo criativo decoração, simone heringer, igrejas evangelicas interior de minas, projetos jardins")/
+
 +section('cssPagina')
     link(rel="stylesheet", href!="{{ asset('css/processo.css') }}", type="text/css")/
+
 +section('content')
 include ./_partial
+
 +section('jsPagina')
     script(src!="{{ asset('js/processo.min.js')}}", type="text/javascript")

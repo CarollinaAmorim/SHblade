@@ -1,0 +1,50 @@
+// colonna centrale
+body>section{
+  article{
+    .square(100%);
+    .f_grigio;
+    padding-top: 5%;
+
+    .bigger{font-size: 1.2em;}
+    .bold{.bold;}
+    .verde{color: @brand-verde;}
+
+    header{
+      h1{
+        margin-top: 0%; /*verifica responsive*/
+        margin-left: @offset-1col; /*verifica responsive*/
+        .maiuscolo;
+        font-size:1.5em;
+        span{
+          font-size: 0.55em; /*verifica responsive*/
+        }
+      }
+    }
+    div.filetto_titoli{
+      margin-top: 0.2%; /*verifica responsive*/
+      .size(@col-3;5px); /*verifica responsive*/
+      background-color: @brand-verde;
+    }
+    p{
+
+      @media (min-width: 1280px){// schermi 1280 o superiori
+        margin-left: @offset-1col;
+        width: @col-6 + @sp;
+        margin-top: 3%;
+        font-size: 0.80em;
+        line-height: 1.5em;
+        .testo_colonna;
+      }
+      @media (max-width: 1270px){// schermi inferiori a 1280
+        margin-left: @offset-1col;
+        width: @col-5;
+        margin-top: 6%;
+        font-size: 0.95em;
+        line-height: 1.7em;
+        .testo_sinistra;
+      }
+
+    }
+
+  }
+}

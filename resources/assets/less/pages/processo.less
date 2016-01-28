@@ -4,8 +4,88 @@
 @import (reference) "../../bower/atemporaleNEXTbower/less/mixin_css3.less";
 @import (reference) "../../bower/atemporaleNEXTbower/less/mixin_posizione.less";
 @import (reference) "../../bower/atemporaleNEXTbower/less/mixin_testo.less";
+
 //stampo le formattazioni generali di default
 @import (reference) "../../bower/atemporaleNEXTbower/less/start.less";
+
 //stampo le formattazioni dei componenti
 @import "../components/layout.less";
+@import "../components/_template_fisso.less";
+
 //stampo le regole per questa pagina
+div#barra_destra > *{display: none !important;}
+
+
+article#processo{
+  ul{
+    .testo_centro;
+
+    @media (min-width: 1280px){// schermi 1280 o superiori
+      margin: 5.5% @col-1;
+      .size(@col-10;80px);
+      padding: 0;
+    }
+    @media (max-width: 1270px){// schermi inferiori a 1280
+      margin-top: 10%;
+      .size(@col-12;auto);
+      padding: 20px @col-1;
+      background-color: @brand-verde;
+    }
+
+    li{
+      @media (min-width: 1280px){// schermi 1280 o superiori
+        .size(@col-2;70px);
+        .block;
+        .left;
+        border-right:1px solid #ddd;
+        color:#666;
+      }
+      @media (max-width: 1270px){// schermi inferiori a 1280
+        .size(@col-10;auto);
+        .testo_centro;
+        margin-bottom: 7%;
+        border-right:0;
+        color:#fff;
+      }
+
+
+      &:first-child{
+        margin-left: @offset-2col;
+        @media (max-width: 1200px){
+          margin-left: 0;
+        }
+      }
+      &:last-child{
+        border:0;
+      }
+      h2{
+
+        cursor: pointer;
+
+        @media (min-width: 1280px){// schermi 1280 o superiori
+          font-size: 0.7em;
+          .maiuscolo;
+          padding:0 20px;
+        }
+        @media (max-width: 1270px){// schermi inferiori a 1280
+          font-size: 1.2em;
+        }
+
+        span{
+
+          @media (min-width: 1280px){// schermi 1280 o superiori
+            font-size: 2em;
+            margin-bottom: 4%;
+            .block;
+          }
+          @media (max-width: 1270px){// schermi inferiori a 1280
+            font-size: 0.7em;
+            margin-bottom: 0;
+            .block;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}

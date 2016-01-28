@@ -1,14 +1,20 @@
 include ./../../templates/mixin.jade
 +extends('templates/public_layout')
+
 +section('Title')
-    title Testo da inserire
+    title Página contato - Simone Heringer Design de Ambientes e Paisagismo
+
 +section('MetaDescription')
-    meta(name="description", content="aaa")/
+    meta(name="description", content="Informações, contato e orçamentos. Entre em contato com Simone Heringer.")/
+
 +section('MetaKeywords')
-    meta(name="keywords", content="aaa, aaa, aaa")/
+    meta(name="keywords", content="Contato, Design de Interiores BH, Decoração BH, orçamento design de interiores, Site Decoração, design de ambientes, projetos de jardins, projetos igrejas evangélicas, arquitetura de interiores igrejas evangelicas, BH, Site Designers BH")/
+
 +section('cssPagina')
     link(rel="stylesheet", href!="{{ asset('css/contatti.css') }}", type="text/css")/
+
 +section('content')
 include ./_partial
+
 +section('jsPagina')
     script(src!="{{ asset('js/contatti.min.js')}}", type="text/javascript")

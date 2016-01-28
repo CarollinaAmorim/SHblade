@@ -2,11 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e42aa7-721e-4896-8301-00e7984f8023" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog1/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog1/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog10/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog10/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog11/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog11/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog12/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog12/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog13/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog13/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog14/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog14/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog2/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog2/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog4/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog4/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog5/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog5/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog6/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog6/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog7/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog7/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog8/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog8/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog9/_partial.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/jade/public/prog9/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/one_page_scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/slider_background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/pages/progetto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/components/_base_progetti.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/components/_template_fisso.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/components/_template_scroll_to.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/pages/progetto_completo.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/pages/progetto_semplice.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/contatti/_partial.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/contatti/_partial.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/contatti/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/contatti/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/home/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/home/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/portfolio/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/portfolio/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/processo/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/processo/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/servizi/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/servizi/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/public/sobre/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/public/sobre/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/jade/template/index.jade" afterPath="$PROJECT_DIR$/resources/assets/jade/template/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/components/layout.js" afterPath="$PROJECT_DIR$/resources/assets/js/components/layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/contatti.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/contatti.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/home.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/portfolio.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/portfolio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/processo.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/processo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/servizi.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/servizi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/pages/sobre.js" afterPath="$PROJECT_DIR$/resources/assets/js/pages/sobre.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/components/layout.less" afterPath="$PROJECT_DIR$/resources/assets/less/components/layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/contatti.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/contatti.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/home.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/portfolio.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/portfolio.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/processo.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/processo.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/servizi.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/servizi.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/pages/sobre.less" afterPath="$PROJECT_DIR$/resources/assets/less/pages/sobre.less" />
     </list>
     <ignored path="sh_ultimo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,57 +81,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="_partial.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog1/_partial.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+            <state vertical-scroll-proportion="-13.851851">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="_partial.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/contatti/_partial.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9537954">
-              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-              <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
-              <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
-              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.bowerrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-86.96154">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkflowServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/atemporale-next/workflow/src/WorkflowServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.67530227">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -92,17 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Console/Commands/NewPublicLayout.php" />
-        <option value="$PROJECT_DIR$/app/Console/Commands/NewPublicPage.php" />
-        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" />
         <option value="$PROJECT_DIR$/vendor/atemporale-next/workflow/src/WorkflowServiceProvider.php" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/layout.js" />
+        <option value="$PROJECT_DIR$/resources/assets/less/components/layout.less" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/slider_background.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/one_page_scroll.js" />
+        <option value="$PROJECT_DIR$/resources/assets/less/components/_base_progetti.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/components/_template_fisso.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/components/_template_scroll_to.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/contatti.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/home.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/portfolio.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/processo.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/servizi.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/sobre.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/progetto_completo.less" />
+        <option value="$PROJECT_DIR$/resources/assets/less/pages/progetto_semplice.less" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/contatti.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/home.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/portfolio.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/processo.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/progetto.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/servizi.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/pages/sobre.js" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/contatti/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/home/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/portfolio/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/processo/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/servizi/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/sobre/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog1/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog2/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog3/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog4/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog5/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog6/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog7/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog8/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog9/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog10/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog11/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog12/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog13/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog14/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/template/index.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/prog1/_partial.jade" />
+        <option value="$PROJECT_DIR$/resources/assets/jade/public/contatti/_partial.jade" />
       </list>
     </option>
   </component>
@@ -130,7 +187,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -217,92 +274,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_ultimo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -369,6 +340,18 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contatti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -432,6 +415,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\lamp\www\sh_ultimo\resources\assets\jade\public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -515,53 +503,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Inspire.php">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05862069">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73275864">
-          <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.08415841">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43965518">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.5275862">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/NewPublicPage.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64827585">
-          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.20517242">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/NewPublicLayout.php">
+    <entry file="file://$PROJECT_DIR$/vendor/atemporale-next/workflow/src/WorkflowServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14655173">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.41034484">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/home/_partial.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -569,64 +543,377 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7948276">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.6419142">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/atemporale-next/workflow/src/WorkflowServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.83168316">
+          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/components/layout.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-86.96154">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.93851715">
+          <caret line="313" column="1" selection-start-line="313" selection-start-column="1" selection-end-line="313" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/slider_background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20552677">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9438944">
+          <caret line="258" column="3" selection-start-line="258" selection-start-column="3" selection-end-line="258" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/one_page_scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9438944">
+          <caret line="425" column="17" selection-start-line="425" selection-start-column="17" selection-end-line="425" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/components/_base_progetti.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.735849">
+          <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/components/_template_fisso.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        <state vertical-scroll-proportion="-10.735849">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/components/_template_scroll_to.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9537954">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
-          <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
-          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.98103446">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/contatti.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.023508">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98734176">
+          <caret line="204" column="1" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/portfolio.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93851715">
+          <caret line="407" column="1" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/servizi.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93851715">
+          <caret line="308" column="1" selection-start-line="308" selection-start-column="1" selection-end-line="308" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/sobre.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.792453">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/processo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/progetto_completo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8490567">
+          <caret line="12" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/pages/progetto_semplice.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5840868">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/contatti.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85973597">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39273927">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5049505">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/processo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14026402">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/progetto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83168316">
+          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/servizi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83168316">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/pages/sobre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05610561">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/home/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32297063">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/contatti/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29360968">
+          <caret line="10" column="271" selection-start-line="10" selection-start-column="271" selection-end-line="10" selection-end-column="271" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/portfolio/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29360968">
+          <caret line="10" column="287" selection-start-line="10" selection-start-column="287" selection-end-line="10" selection-end-column="287" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/processo/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29360968">
+          <caret line="10" column="290" selection-start-line="10" selection-start-column="290" selection-end-line="10" selection-end-column="290" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/servizi/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32297063">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/sobre/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29360968">
+          <caret line="10" column="233" selection-start-line="10" selection-start-column="233" selection-end-line="10" selection-end-column="233" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog5/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog4/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog2/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog6/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog7/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog8/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog9/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog10/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog11/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog12/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog13/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog14/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785835">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog3/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.814815">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog1/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.962963">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/template/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2936096">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/prog1/_partial.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.851851">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/jade/public/contatti/_partial.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67530227">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -4,8 +4,8 @@ $(document).ready(function () {
         imgPulanteMenu = $("div#espandi_menu > img"),
         linkMenu = $("nav[role=menu] ul a");
 
-    function oscuraPagina() { $("<div id='oscura'></div>").appendTo("body").hide().fadeIn(1000); };
-    function eliminaOscuraPagina() { $("div#oscura").remove(); };
+    function oscuraPagina() { $("<div id='oscura'></div>").appendTo("body").hide().fadeIn(1000); }
+    function eliminaOscuraPagina() { $("div#oscura").remove(); }
 
     imgPulanteMenu.eq(1).hide();
     $("nav[role=menu] *").hide();
@@ -24,7 +24,7 @@ $(document).ready(function () {
             pulsanteMenu.hide().animate({left: "30%", marginLeft: "-25px"}, 750);
             $("nav[role=menu]").animate({width: "30%"}, 750);
         }
-    };
+    }
 
     imgPulanteMenu.eq(0).click(function () {
         linkMenu.css("width", "0%");
@@ -55,7 +55,7 @@ $(document).ready(function () {
         else{
             pulsanteMenu.hide().animate({left: "0%", marginLeft: "25px"}, 750);
         }
-    };
+    }
 
     function InitStatus(){
         $("nav[role=menu] *").fadeOut(100);
@@ -65,7 +65,7 @@ $(document).ready(function () {
         imgPulanteMenu.eq(0).show();
         pulsanteMenu.fadeIn(1000);
         eliminaOscuraPagina();
-    };
+    }
 
     imgPulanteMenu.eq(1).click(function () {
         InitStatus();

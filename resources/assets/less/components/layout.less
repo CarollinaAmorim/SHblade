@@ -1,4 +1,12 @@
-// out: null
+//richiamo i file less per ereditare le funzioni, ma senza stamparli
+@import (reference) "../../bower/atemporaleNEXTbower/less/grid_system12.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/material_design_color_palette.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_css3.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_posizione.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_testo.less";
+
+//stampo le formattazioni generali di default
+@import (reference) "../../bower/atemporaleNEXTbower/less/start.less";
 
 body{
   overflow: hidden;
@@ -80,15 +88,14 @@ body>header{
 
   }
   @media (max-width: 1270px){
-    min-width: 0px;// schermi inferiori a 1280
+    min-width: 0;// schermi inferiori a 1280
     .size(auto;100%);// schermi inferiori a 1280
   }
   div#espandi_menu{
-    background-image: url('../img/layout/icona_menu_apri.png') center center no-repeat;
     .right;
     .left0;
     .liv12;
-    .bg_bianco;
+    background-color: #fff;
     cursor: pointer;
 
     @media (min-width: 1366px){
@@ -133,7 +140,7 @@ body>header{
     .left;
     overflow: hidden;
     .size(0;100%);
-    .bg_bianco;
+    background-color: #fff;;
     .box-shadow(0 2px 10px rgba(0,0,0,.30));
     .liv11;
     .testo_centro;
@@ -224,13 +231,13 @@ div#barra_destra{
       }
       .cerchio{
         width: 10px;
-        height: 0px;
+        height: 0;
         overflow: hidden;
         margin-left:10px;
         background-color: @brand-verde;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         opacity: 0.3;
-        .smusso(5px);
+        .rounded(5px);
       }
 
       li[role=prev], li[role=next]{

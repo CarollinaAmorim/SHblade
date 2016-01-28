@@ -18,77 +18,42 @@ class PublicController extends Controller
     | a simple trait to add these behaviors. Why don't you explore it?
     |
     */
-    
-    public function home(){
-    
-        return view('pages.index');
-    
-    }
-    
-    
-    public function sobre(){
-    
-        return view('pages.sobre');
-    
-    }
-    
-    public function portfolio(){
-    
-        return view('pages.portfolio');
-    
-    }
-    
-    public function processo(){
-    
-        return view('pages.processo');
-    
-    }
-    
-    public function contatti(){
-    
-        return view('pages.contatti');
-    
-    }
-    
-    public function servizi(){
-    
-        return view('pages.servizi');
-    
-    }
-    
-    public function prog1(){return view('pages.progetto_1');}
-    public function prog2(){return view('pages.progetto_2');}
-    public function prog3(){return view('pages.progetto_3');}
-    public function prog4(){return view('pages.progetto_4');}
-    public function prog5(){return view('pages.progetto_5');}
-    public function prog6(){return view('pages.progetto_6');}
-    public function prog7(){return view('pages.progetto_7');}
-    public function prog8(){return view('pages.progetto_8');}
-    public function prog9(){return view('pages.progetto_9');}
-    public function prog10(){return view('pages.progetto_10');}
-    public function prog11(){return view('pages.progetto_11');}
-    public function prog12(){return view('pages.progetto_12');}
-    public function prog13(){return view('pages.progetto_13');}
-    public function prog14(){return view('pages.progetto_14');}
 
     public function home(){
         return view('public.home.index');
     }
-public function contatti(){
+    public function contatti(){
         return view('public.contatti.index');
     }
-public function portfolio(){
+    public function portfolio(){
         return view('public.portfolio.index');
     }
-public function servizi(){
+    public function servizi(){
         return view('public.servizi.index');
     }
-public function processo(){
+    public function processo(){
         return view('public.processo.index');
     }
-public function sobre(){
+    public function sobre(){
         return view('public.sobre.index');
     }
+    
+    public function prog1(){return view('public.progetto_1.index');}
+    public function prog2(){return view('public.progetto_2.index');}
+    public function prog3(){return view('public.progetto_3.index');}
+    public function prog4(){return view('public.progetto_4.index');}
+    public function prog5(){return view('public.progetto_5.index');}
+    public function prog6(){return view('public.progetto_6.index');}
+    public function prog7(){return view('public.progetto_7.index');}
+    public function prog8(){return view('public.progetto_8.index');}
+    public function prog9(){return view('public.progetto_9.index');}
+    public function prog10(){return view('public.progetto_10.index');}
+    public function prog11(){return view('public.progetto_11.index');}
+    public function prog12(){return view('public.progetto_12.index');}
+    public function prog13(){return view('public.progetto_13.index');}
+    public function prog14(){return view('public.progetto_14.index');}
+
+
 //add new page
 
 }

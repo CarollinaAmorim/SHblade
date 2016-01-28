@@ -1,5 +1,5 @@
 include ./../../templates/mixin.jade
-+extends('templates/public_layout')
++extends('./templates/index')
 
 +section('Title')
     title Página contato - Simone Heringer Design de Ambientes e Paisagismo
@@ -14,7 +14,7 @@ include ./../../templates/mixin.jade
     link(rel="stylesheet", href!="{{ asset('css/contatti.css') }}", type="text/css")/
 
 +section('content')
-include ./_partial
+    include ./_partial
 
 +section('jsPagina')
     script(src!="{{ asset('js/contatti.min.js')}}", type="text/javascript")

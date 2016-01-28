@@ -1,5 +1,5 @@
 include ./../../templates/mixin.jade
-+extends('templates/public_layout')
++extends('./templates/index')
 
 +section('Title')
     title Pacotes e Serviços - Simone Heringer
@@ -14,7 +14,7 @@ include ./../../templates/mixin.jade
     link(rel="stylesheet", href!="{{ asset('css/servizi.css') }}", type="text/css")/
 
 +section('content')
-include ./_partial
+    include ./_partial
 
 +section('jsPagina')
     script(src!="{{ asset('js/servizi.min.js')}}", type="text/javascript")

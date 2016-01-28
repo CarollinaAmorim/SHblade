@@ -1,2 +1,59 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active(role="region")
+        header#id1(role="heading")
+            h1
+                span.left
+                span.right
+                !='Ambientes memor&aacute;veis'
+                br/
+            h3
+                ='para uma vida de qualidade inigualável'
+            .lineacentrale
+            br/
+            br/
+            a.homelink(href!="{{route('public.portfolio')}}", title="Conhe&ccedil;a mais sobre como podemos melhorar a sua qualidade de vida")
+                !='Conhe&ccedil;a o nosso portf&oacute;lio'
+
+    article.vs-section(role="region")
+        header#id2(role="heading")
+            h2
+                span.left
+                span.right
+                !='Templos inesquec&iacute;veis'
+            h3
+                !='para uma completa experiência com Deus'
+            .lineacentrale
+            br/
+            br/
+            a.homelink(href!="{{route('public.portfolio')}}", title="Clique para conhecer sobre nossos projetos de Igrejas.")
+                ='Descubra o Design de Igrejas'
+
+    article.vs-section(role="region")
+        header#id3(role="heading")
+            h2
+                span.left
+                span.right
+                !='Solu&ccedil;&otilde;es Inteligentes'
+            h3
+                ='para economizar, stress, tempo e dinheiro'
+            .lineacentrale
+            br/
+            br/
+            a.homelink(href!="{{route('public.servizi')}}", title="Clique e conhe&ccedil;a nossas op&ccedil;&otilde;es")
+                !='Encontre a solu&ccedil;&atilde;o certa para voc&ecirc;'
+
+    article.vs-section(role="region")
+        header#id4(role="heading")
+            h2
+                span.left
+                span.right
+                ='Entre em contato'
+            h3
+                ='seja o seu espaço residencial, liturgico, comercial, coorporativo e/ou institucional'
+            .lineacentrale
+            br
+            br
+            a.homelink(href="{{route('public.contatti')}}", title="Vamos realizar o seu projeto hoje?Entre em contato!")
+                ='Vamos fazer acontecer?'
+

@@ -1,8 +1,18 @@
+//richiamo i file less per ereditare le funzioni, ma senza stamparli
+@import (reference) "../../bower/atemporaleNEXTbower/less/grid_system12.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/material_design_color_palette.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_css3.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_posizione.less";
+@import (reference) "../../bower/atemporaleNEXTbower/less/mixin_testo.less";
+
+//stampo le formattazioni generali di default
+@import (reference) "../../bower/atemporaleNEXTbower/less/start.less";
+
 // colonna centrale
 body>section{
 
   article{
-    .f_grigio;
+    color:#666;
     padding-top: 5%;
 
     .bigger{font-size: 1.2em;}
@@ -11,7 +21,7 @@ body>section{
 
     header{
       h1{
-        margin-top: 0%; /*verifica responsive*/
+        margin-top: 0; /*verifica responsive*/
         margin-left: @offset-1col; /*verifica responsive*/
         .maiuscolo;
         font-size:1.5em;

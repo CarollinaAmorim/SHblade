@@ -26,13 +26,13 @@ elixir(function(mix) {
 
 
     elixir(function(mix) {
-        mix.scripts(["components/layout.js","components/slider_background.js", "pages/home.js", "components/analytics.js"], "public/js/home.min.js")
-            .scripts(["components/layout.js","pages/sobre.js","components/analytics.js"], "public/js/sobre.min.js")
-            .scripts(["components/layout.js","components/one_page_scroll.js", "pages/servizi.js","components/analytics.js"], "public/js/servizi.min.js")
-            .scripts(["components/layout.js","pages/processo.js","components/analytics.js"], "public/js/processo.min.js")
-            .scripts(["components/layout.js","components/one_page_scroll.js", "pages/portfolio.js","components/analytics.js"], "public/js/portfolio.min.js")
-            .scripts(["components/layout.js","pages/contatti.js","components/analytics.js"], "public/js/contatti.min.js")
-            .scripts(["components/layout.js","pages/progetto.js","components/analytics.js"], "public/js/progetto.min.js");
+        mix.scripts(["components/layout.js","components/slider_background.js", "pages/home.js"], "public/js/home.min.js")
+            .scripts(["components/layout.js","pages/sobre.js"], "public/js/sobre.min.js")
+            .scripts(["components/layout.js","components/one_page_scroll.js", "pages/servizi.js"], "public/js/servizi.min.js")
+            .scripts(["components/layout.js","pages/processo.js"], "public/js/processo.min.js")
+            .scripts(["components/layout.js","components/one_page_scroll.js", "pages/portfolio.js"], "public/js/portfolio.min.js")
+            .scripts(["components/layout.js","pages/contatti.js"], "public/js/contatti.min.js")
+            .scripts(["components/layout.js","pages/progetto.js"], "public/js/progetto.min.js");
     });
 
 });

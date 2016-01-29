@@ -34,7 +34,7 @@
       </header>
       <h1>Primeira Igreja Presb. de BH<a href="{{route('public.progetto_2')}}" title="vai ao pr&amp;oacute;ximo projeto" class="fa fa-chevron-right"></a>
       </h1>
-      <h2><i class="fa fa-home">Design de Igrejas</i><br/>&#35;ProjetosIgrejasEvang&eacute;licas,&#35;Reformas,&#35;DesignDeIgrejas,&#35;DesignDeInterioresBH
+      <h2><i class="fa fa-home"></i>Design de Igrejas<br/>&#35; ProjetosIgrejasEvang&eacute;licas, &#35; Reformas, &#35; DesignDeIgrejas, &#35; DesignDeInterioresBH
       </h2>
       <h3>Revitalizaç&atilde;o da 1a. Igreja Presbiteriana de BH: valorizando a historia, regenerando vidas.
       </h3>

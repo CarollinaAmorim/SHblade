@@ -80,46 +80,46 @@
       </h2>
     </header>
     <div class="filetto_titoli"></div>
+    <p class="specifico">Projetar residencias é atuar em modo decisivo no bem-estar de uma familia.
+    </p>
+    <div class="gruppo_immagini"><a href="{{route('public.progetto_5')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_lourdes.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a><a href="{{route('public.progetto_6')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_buritis2.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a><a href="{{route('public.progetto_7')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_madre_gertrudes.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a><a href="{{route('public.progetto_8')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_casa_do_musico.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a><a href="{{route('public.progetto_9')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_eldorado.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a><a href="{{route('public.progetto_10')}}" title="">
+        <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_buritis3.jpg')}}" alt=""/>
+          <figcaption>Nome del progetto
+            <div class="pulsante">scopri
+            </div>
+          </figcaption>
+        </figure></a></div>
   </article>
-  <p class="specifico">Projetar residencias é atuar em modo decisivo no bem-estar de uma familia.
-  </p>
-  <div class="gruppo_immagini"><a href="{{route('public.progetto_5')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_lourdes.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a><a href="{{route('public.progetto_6')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_buritis2.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a><a href="{{route('public.progetto_7')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_madre_gertrudes.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a><a href="{{route('public.progetto_8')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_casa_do_musico.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a><a href="{{route('public.progetto_9')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_eldorado.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a><a href="{{route('public.progetto_10')}}" title="">
-      <figure><img src="{{asset('img/progetto_a/min/min_res_bairro_buritis3.jpg')}}" alt=""/>
-        <figcaption>Nome del progetto
-          <div class="pulsante">scopri
-          </div>
-        </figcaption>
-      </figure></a></div>
   <article class="altro">
     <header>
       <h2>Outros projetos

@@ -6,7 +6,7 @@
       </h1>
       <h3>para uma vida de qualidade inigualável
       </h3>
-      <div class="lineacentrale"></div><br/><br/><a href="{{route('public.portfolio')}}" title="Conhe&amp;ccedil;a mais sobre como podemos melhorar a sua qualidade de vida" class="homelink">Conhe&ccedil;a o nosso portf&oacute;lio</a>
+      <div class="lineacentrale"></div><br/><a href="{{route('public.portfolio')}}" title="Conhe&amp;ccedil;a mais sobre como podemos melhorar a sua qualidade de vida" class="homelink">Conhe&ccedil;a o nosso portf&oacute;lio</a>
     </header>
   </article>
   <article role="region" class="vs-section">
@@ -15,7 +15,7 @@
       </h2>
       <h3>para uma completa experiência com Deus
       </h3>
-      <div class="lineacentrale"></div><br/><br/><a href="{{route('public.portfolio')}}" title="Clique para conhecer sobre nossos projetos de Igrejas." class="homelink">Descubra o Design de Igrejas</a>
+      <div class="lineacentrale"></div><br/><a href="{{route('public.portfolio')}}" title="Clique para conhecer sobre nossos projetos de Igrejas." class="homelink">Descubra o Design de Igrejas</a>
     </header>
   </article>
   <article role="region" class="vs-section">
@@ -24,7 +24,7 @@
       </h2>
       <h3>para economizar, stress, tempo e dinheiro
       </h3>
-      <div class="lineacentrale"></div><br/><br/><a href="{{route('public.servizi')}}" title="Clique e conhe&amp;ccedil;a nossas op&amp;ccedil;&amp;otilde;es" class="homelink">Encontre a solu&ccedil;&atilde;o certa para voc&ecirc;</a>
+      <div class="lineacentrale"></div><br/><a href="{{route('public.servizi')}}" title="Clique e conhe&amp;ccedil;a nossas op&amp;ccedil;&amp;otilde;es" class="homelink">Encontre a solu&ccedil;&atilde;o certa para voc&ecirc;</a>
     </header>
   </article>
   <article role="region" class="vs-section">

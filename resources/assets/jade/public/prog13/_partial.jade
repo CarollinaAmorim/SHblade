@@ -1,2 +1,30 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Open Contabilidade'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_14')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_12')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home"></i> Outros - Coorporativos <span class="tags"><i class="fa fa-leaf"></i> Paisagismo <br />&#35;DesignDeAmbientes &#35;ReformasLojas &#35;Decora&ccedil;&atilde;oLojas &#35;Decora&ccedil;&atilde;oDeInterioresLojas</span>'
+
+                h3
+                    = 'Escritorio de Contabilidade'
+            .filetto
+            p
+
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

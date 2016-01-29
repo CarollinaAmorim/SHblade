@@ -1,2 +1,65 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Igreja Presb. de Lajinha/MG'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_5')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_3')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home">Design de Igrejas</i>'
+                    br/
+                    !='&#35;ProjetosIgrejasEvang&eacute;licas, &#35;Reformas, &#35;DesignDeIgrejasMG, &#35;Lajinha-MG'
+                h3
+                    !='Igreja de Lajinha-MG: Edificando Vidas.'
+            .filetto
+            p
+                ='O propósito do projeto é fazer uma analogia do processo construtivo com a edificação espiritual da igreja, que é constante. A estrutura e os materiais de construção aparentes são evidenciados para lembrar cotidianamente da obra espiritual de Deus na vida da Igreja.'
+
+
+        article.contenuti_concept
+            header
+            p
+               ='O grande desafio de projetar o novo templo comemorativo dos 100 anos desta igreja foi aceito por nossa equipe com muita satisfação e responsabilidade.'
+            br/
+            br/
+               ='Um templo é em primeiro lugar um santuário ao Deus altíssimo e também representa a igreja (comunidade) que se reúne neste recinto. Projetar o templo de uma igreja tradicional e centenária que tem a preocupação de ser atual e contemporânea nos levou a confrontar paradoxos.'
+            br/
+            br/
+                ='O resultado foi um paralelo do templo antigo, com influência no estilo clássico,  que representa a história da instituição e o templo novo: um olhar para o futuro, no estilo contemporâneo e muito despojado, se adornando da simplicidade dos mateirias construtivos e apresentando a circulação e confraternização dos usuários no seu inteiror, como o mais importante elemento de composição.'
+
+        article.contenuti_dettagli1
+            header
+            p
+                ='A solução em design foi o diálogo entre estilos e épocas, história e visão, respeito e ousadia. Sendo assim, o templo antigo dá lugar a um templo novo, elaborado para atender as demandas atuais e futuras, oferecendo novas tecnologias e parâmetros de conforto. Mas toda a memória de sua história será preservada no prédio antigo, que terá a nova função de salão social e um abrigará um singelo museu.'
+
+        article.contenuti_dettagli2
+            header
+            p
+                ='Os jardins no estilo tropical possiblitam a contemplação e o relaxamento, contribuindo para o   papel terapêutico da igreja a vida das pessoas.'
+
+    ul#navigazione.visible
+        li#descrizione.cambia_scheda.nonselezionato
+            .ruota
+                ='Conceito'
+        li#concept.cambia_scheda.nonselezionato
+            .ruota
+                !='Solu&ccedil;&atilde;o'
+        li#dettagli1.cambia_scheda.nonselezionato
+            .ruota
+                ='Detalhes'
+        li#dettagli2.cambia_scheda.nonselezionato
+            .ruota
+                ='Detalhes'
+        li#apri_chiudi.nonselezionato.fa

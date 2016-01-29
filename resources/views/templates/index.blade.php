@@ -32,7 +32,8 @@
     <meta name="msapplication-square150x150logo" content="{{ asset('/img/favicon/mediumtile.png') }}">
     <meta name="msapplication-wide310x150logo" content="{{ asset('/img/favicon/widetile.png') }}">
     <meta name="msapplication-square310x310logo" content="{{ asset('/img/favicon/largetile.png') }}">
-    <!--Page CSS-->@yield('cssPagina', '')
+    <!--Page CSS-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">@yield('cssPagina', '')
 
     <!--Librerie js-->
     <script src="{{asset('bower/jquery/dist/jquery.min.js')}}" type="text/javascript"></script>
@@ -50,8 +51,7 @@
     <div id="fascia_logo"><a href="{{ route('public.index') }}" title="#"><img src="{{asset('/img/layout/logo_template_esteso.png')}}" role="logo" alt=""></a></div>
     <!--bordo inferiore bianco-->
     <footer>
-      <address>
-        <Entre>em contato</Entre><img src="{{asset('/img/layout/icona_telefono.png')}}" role="icon" alt="">(31) 2510 - 4372
+      <address>Entre em contato<span class="fa fa-phone"></span>(31) 2510 - 4372
       </address>
     </footer>
     <!--bordo laterale sinistro bianco-->

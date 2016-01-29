@@ -1,2 +1,59 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Ap. Bairro de Lourdes BH'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_6')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_4')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home">Projetos Residenciais</i>'
+                    br/
+                    !='&#35;designDeInterioresBH, &#35;ReformasEmCasas, &#35;ProjetosCasas, &#35;Decora&ccedil;&atilde;oDeInteriores,'
+                h3
+                    !='Breve abstract breve descrizione del progetto Breve abstract '
+            .filetto
+            p
+                ='O apartamento antigo foi todo reformado para se adaptar às preferências e necessidades dos novos proprietários. Quatro meses de obras e todos os imprevistos valeram a pena: o resultado foi surpreendente! Os revestimentos antigos deram lugar a outros que foram minuciosamente escolhidos para agradar os novos proprietários: desde a sofisticação e sobriedade dos banheiros e pisos à personalidade marcante com um toque de humor da cozinha.'
+
+        article.contenuti_concept
+            header
+            p
+                ='AAA'
+
+        article.contenuti_dettagli1
+            header
+            p
+                ='BBB'
+
+
+        article.contenuti_dettagli2
+            header
+            p
+                ='CCC'
+
+    ul#navigazione.visible
+        li#descrizione.cambia_scheda.nonselezionato
+            .ruota
+                ='Conceito'
+        li#concept.cambia_scheda.nonselezionato
+            .ruota
+                !='Solu&ccedil;&atilde;o'
+        li#dettagli1.cambia_scheda.nonselezionato
+            .ruota
+                ='Detalhes'
+        li#dettagli2.cambia_scheda.nonselezionato
+            .ruota
+                ='Detalhes'
+        li#apri_chiudi.nonselezionato.fa

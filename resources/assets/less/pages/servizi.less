@@ -118,14 +118,12 @@ article.servizi{
 
 article.pac1, article.pac2, article.pac3 {
   header{
-    h2{
-      margin-top: 0; /*verifica responsive*/
-      margin-left: @offset-1col; /*verifica responsive*/
-      font-size:1.5em;
-    }
-  }
+     h2{
+       margin:0 0 5px @offset-1col;
+       font-size:1.5em;
+     }
+   }
   div.filetto_titoli{
-    margin-top: 0.2%; /*verifica responsive*/
     .size(@col-3;5px); /*verifica responsive*/
     background-color: @brand-verde;
   }
@@ -185,7 +183,7 @@ article.pac1, article.pac2, article.pac3 {
       .right;
       clear: right;
       padding-right: 50px;
-      margin-right: @offset-1col;
+      margin: 0 @offset-1col 5px 0;
       height: 25px;
     }
     .filetto_titoli{

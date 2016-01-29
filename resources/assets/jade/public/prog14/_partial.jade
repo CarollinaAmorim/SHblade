@@ -1,2 +1,29 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    != 'Condominio Apor&aacute; Buritis '
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_13')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home"></i> Outros - institucionais <br /><span class="tags">&#35;DesignDeInterioresBH, &#35;Reformas, &#35;Decora&ccedil;&atilde;oInstitucionais, &#35;Decora&ccedil;&atilde;oHalldeEntrada,</span>'
+
+                h3
+                    != 'Hall de entrada do condominio Apor&aacute;'
+            .filetto
+            p
+
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

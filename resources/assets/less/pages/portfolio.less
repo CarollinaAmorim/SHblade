@@ -119,8 +119,7 @@ article.chiese, article.altro {
     .right;
     width: @col-10;
     h2{
-      margin-top: 0; /*verifica responsive*/
-      margin-right: @offset-1col; /*verifica responsive*/
+      margin: 0 @offset-1col 5px 0; /*verifica responsive*/
       padding-right: 100px;
       font-size:1.5em;
       .testo_destra;
@@ -130,7 +129,6 @@ article.chiese, article.altro {
     padding-right: 100px;
     clear: right;
     .right;
-    margin-top: 0.2%; /*verifica responsive*/
     .size(@col-4;5px); /*verifica responsive*/
     background-color: @brand-verde;
   }
@@ -159,48 +157,61 @@ article.chiese, article.altro {
   }
   .gruppo_immagini{
     .left;
+    margin-left: @sp;
     .size(@col-8;50%);
     margin-top: 3%;
-    figure{
-      margin-left:@offset-1col;
-      margin-bottom: 3%;
+    a{
+      .block;
       .left;
       .size(@col-5;45%);
-      overflow: hidden;
-      cursor: pointer;
+      margin:0 0 3% @offset-1col;
+      text-decoration: none;
       .box-shadow(0px 0px 5px rgba(0,0,0,.30));
       &:hover{.box-shadow(0px 0px 2px rgba(0,0,0,.30));}
-      img{
-        .size(340px;140px);
-        background-color: #fff;
+      &:nth-child(2){
+        margin-left:3%!important;
       }
-      figcaption{
-        .relative;
-        .liv8;
-        opacity: 0;
-        top: -140px;
-        .size(340px;140px);
-        background-color: rgba(154,156,23,0.8);
-        color:#fff;
-        .testo_centro;
-        font-size: 0.9em;
-        display: table-cell;
-        vertical-align: middle;
+      &:nth-child(4){
+        margin-left:3%!important;
+      }
 
-        .pulsante{
-          font-size: 0.7em;
-          .block;
-          .relative;
-          .left50;
-          margin-top: 3%;
-          margin-left: -41px;
-          width: 70px;
-          padding: 5px;
-          border: 1px solid #fff;
-          .testo_centro;
-          .rounded(5px);
-          .maiuscolo;
+      figure{
+        .size(100%;100%);
+        overflow: hidden;
+        margin: 0!important;
+
+        img{
+          .size(340px;150px);
         }
+        figcaption{
+          .relative;
+          .liv8;
+          opacity: 0;
+          top: -160px;
+          .size(340px;160px);
+          background-color: rgba(154,156,23,0.8);
+          color:#fff;
+          .testo_centro;
+          font-size: 0.9em;
+          display: table-cell;
+          vertical-align: middle;
+
+          .pulsante{
+            font-size: 0.7em;
+            .block;
+            .relative;
+            .left50;
+            margin-top: 3%;
+            margin-left: -41px;
+            width: 70px;
+            padding: 5px;
+            border: 1px solid #fff;
+            .testo_centro;
+            .rounded(5px);
+            .maiuscolo;
+          }
+        }
+
       }
     }
   }
@@ -209,13 +220,11 @@ article.chiese, article.altro {
 article.case {
   header{
     h2{
-      margin-top: 0; /*verifica responsive*/
-      margin-left: @offset-1col; /*verifica responsive*/
+      margin:0 0  5px @offset-1col;
       font-size:1.5em;
     }
   }
   div.filetto_titoli{
-    margin-top: 0.2%; /*verifica responsive*/
     .size(@col-3;5px); /*verifica responsive*/
     background-color: @brand-verde;
   }
@@ -246,45 +255,57 @@ article.case {
     .right;
     .size(@col-8;50%);
     margin-top: 3%;
-    figure{
-      margin-right:@offset-1col;
-      margin-bottom: 3%;
+
+    a{
+      margin: 0 3% 3% 0 ;
       .left;
       .size(@col-3;45%);
       overflow: hidden;
-      cursor: pointer;
+      text-decoration: none;
       .box-shadow(0px 0px 5px rgba(0,0,0,.30));
       &:hover{.box-shadow(0px 0px 2px rgba(0,0,0,.30));}
-      img{
-        .size(340px;140px);
-        background-color: #fff;
-      }
-      figcaption{
-        .relative;
-        .liv8;
-        opacity: 0;
-        top: -140px;
-        .size(340px;140px);
-        background-color: rgba(154,156,23,0.8);
-        color:#fff;
-        .testo_centro;
-        font-size: 0.9em;
-        display: table-cell;
-        vertical-align: middle;
 
-        .pulsante{
-          font-size: 0.7em;
-          .block;
+      &:nth-child(1){
+        margin-left:5%!important;
+      }
+      &:nth-child(4){
+        margin-left:5%!important;
+      }
+      figure{
+        .size(100%;100%);
+        overflow: hidden;
+        margin: 0!important;
+
+        img{
+          .size(340px;150px);
+        }
+        figcaption{
           .relative;
-          .left50;
-          margin-top: 3%;
-          margin-left: -41px;
-          width: 70px;
-          padding: 5px;
-          border: 1px solid #fff;
+          .liv8;
+          opacity: 0;
+          top: -160px;
+          .size(340px;150px);
+          background-color: rgba(154,156,23,0.8);
+          color:#fff;
           .testo_centro;
-          .rounded(5px);
-          .maiuscolo;
+          font-size: 0.9em;
+          display: table-cell;
+          vertical-align: middle;
+
+          .pulsante{
+            font-size: 0.7em;
+            .block;
+            .relative;
+            .left50;
+            margin-top: 3%;
+            margin-left: -41px;
+            width: 70px;
+            padding: 5px;
+            border: 1px solid #fff;
+            .testo_centro;
+            .rounded(5px);
+            .maiuscolo;
+          }
         }
       }
     }

@@ -183,7 +183,8 @@ body > header nav ul.internal li a {
   height: 3%;
 }
 body > header nav ul.internal li a:hover {
-  text-decoration: underline;
+  color: #666 !important;
+  text-decoration: none;
 }
 body > header nav ul.external {
   background-color: #ccc;
@@ -199,6 +200,7 @@ body > header nav ul.external li {
 body > header nav ul.external li a {
   font-size: 25px;
   color: #9A9C17 !important;
+  text-decoration: none;
 }
 body > header nav ul.external li a:hover {
   opacity: 0.7;
@@ -432,9 +434,7 @@ article.vs-section header h3 {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.65);
 }
 article.vs-section header h3 {
-  margin-top: 10px;
-  /*verifica responsive*/
-  margin-left: 8.4%;
+  margin: 10px 0 0 8.4%;
   width: 83.2%;
   height: auto;
   font-weight: normal;

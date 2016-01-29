@@ -1,2 +1,39 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Ap. Madre Gertrudes'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_8')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_6')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home">Projetos Residenciais</i>'
+                    br/
+                    !='&#35;DesignDeInterioresBH, &#35;Reformas, &#35;Decoraç&atilde;oBH, &#35;Decora&ccedil;&atilde;oDeInteriores,'
+                h3
+                    != 'Paisagismo de área externa e design do anexo<br />da residência'
+            .filetto
+            p
+                ='O foco do projeto é oferecer qualidade de vida para o casal e relaxamento no período em que eles usufruem do seu merecido descanso.'
+                br/
+                br/
+                span.desc
+                    !='<span class="bold">Conceito:</span> Pernas para o ar.'
+                    br/
+                    !='<span class="bold">Caracteristicas essenciais:</span> lazer, acolhedor, conforto, relaxamento, praticidade.'
+                    br/
+                    !='<span class="bold">Demandas:</span> Paisagismo na área externa; Ambientaç&atilde;o cozinha, churrasqueira, lavanderia e banheiro.'
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

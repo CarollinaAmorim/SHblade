@@ -5,11 +5,12 @@ jQuery( document ).ready(function( $ ) {
 
 
     var UL = $('#barra_destra ul'),
+        Scritte =  $('.vs-section > header'),
         LIslide = UL.find('.cerchio');
 
     LIslide.eq(4).remove();
     LIslide.eq(5).remove();
-    $('.vs-section > header').hide();
-    $('.vs-section > header').eq(0).delay(200).fadeIn();
+    Scritte.hide();
+    Scritte.eq(0).delay(200).fadeIn();
 
 });

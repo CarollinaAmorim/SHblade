@@ -183,7 +183,8 @@ body > header nav ul.internal li a {
   height: 3%;
 }
 body > header nav ul.internal li a:hover {
-  text-decoration: underline;
+  color: #666 !important;
+  text-decoration: none;
 }
 body > header nav ul.external {
   background-color: #ccc;
@@ -199,6 +200,7 @@ body > header nav ul.external li {
 body > header nav ul.external li a {
   font-size: 25px;
   color: #9A9C17 !important;
+  text-decoration: none;
 }
 body > header nav ul.external li a:hover {
   opacity: 0.7;

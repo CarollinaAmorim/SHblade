@@ -1,2 +1,37 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    ='Igreja Presb. do Melo Viana'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_3')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_1')}}", title="volta ao projeto anterior")
+                h2
+                    i.fa.fa-home ='Design de Igrejas'
+                    br/
+                    !='&#35;ProjetosIgrejasEvang&eacute;licas, &#35;Reformas, &#35;DesignDeIgrejasMG, &#35;Cel.Fabriciano-MG'
+                h3
+                    ='Reforma da Igreja Melo viana Cel. Fabriciano-MG: fortalecendo atributos, estimulando confiança.'
+            .filetto
+            p
+                ='A intenção do projeto é fortalecer atributos da instituição como unidade e solidez. Busca-se oferecer ambientes úteis e agradáveis que estimulem nos membros e visitantes a confiança, tranquilidade e a satisfação de estar oferecendo o seu melhor para Deus.'
+                br/
+                br/
+                span.desc
+                    !='<span class="bold">Conceito</span> Segurança'
+                    br/
+                    !='<span class="bold">Caracter&iacute;sticas essenciais:ì</span> Alegria, simplicidade, acolhimento, tranquilidade.'
+                    br/
+                    span.bold ='Demandas:'
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

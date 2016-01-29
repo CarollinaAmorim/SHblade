@@ -1,2 +1,39 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Ap. Bairro Buritis'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_10')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_8')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home"></i> Projetos Residenciais <i class="fa fa-leaf"></i> Paisagismo'
+                    br/
+                    !='&#35;DesignDeInterioresBH, &#35;Reformas, &#35;Decora&ccedil;&atilde;oBH, &#35;Decora&ccedil;&atilde;oDeInteriores,'
+                h3
+                    = 'Varanda e Lavanderia'
+            .filetto
+            p
+                ='Desenvolver projeto de reforma e ambientaçao da casa do casal, valorizando o espaço e dando mais personalidade aos ambientes'
+                br/
+                br/
+                span.desc
+                    !='<span class="bold">Conceito:</span> Pernas para o ar.'
+                    br/
+                    !='<span class="bold">Caracteristicas essenciais:</span> praticidade, aconchego, arejado, espaçoso, despojado.'
+                    br/
+                    !='<span class="bold">Demandas:</span> Ambienta&ccedil;&atilde;o da sala, cozinha e varanda. Design de m&oacuteveis, iluminaçao.'
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

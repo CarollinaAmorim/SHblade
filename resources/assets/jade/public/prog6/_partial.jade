@@ -1,2 +1,37 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'Cobertura Bairro Buritis'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_7')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_5')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home">Projetos Residenciais</i>'
+                    br/
+                    !='&#35;ProjetosIgrejasEvang&eacute;licas, &#35;Reformas, &#35;DesignDeIgrejasMG, &#35;Cel.Fabriciano-MG'
+                h3
+                    != 'Para momentos de lazer com a família e amigos.'
+            .filetto
+            p
+                !='Este projeto tem por objetivo projetar a cobertura do apartamento que será destinada ao relaxamento do casal: assistir TV, filmes, futebol, jogar vídeo game e promover reuniões com amigos e família. Assim buscamos promover um espaço acolhedor, pr&aacute;tico e confort&aacute;vel.'
+                br/
+                br/
+                span.desc
+                    !='<span class="bold">Caracteristicas essenciais:</span> lazer, acolhedor, conforto, relaxamento, praticidade, '
+                    br/
+                    !='<span class="bold">Demandas:</span> ambientação da cobertura, área aberta e paisagismo.'
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

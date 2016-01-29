@@ -183,7 +183,8 @@ body > header nav ul.internal li a {
   height: 3%;
 }
 body > header nav ul.internal li a:hover {
-  text-decoration: underline;
+  color: #666 !important;
+  text-decoration: none;
 }
 body > header nav ul.external {
   background-color: #ccc;
@@ -199,6 +200,7 @@ body > header nav ul.external li {
 body > header nav ul.external li a {
   font-size: 25px;
   color: #9A9C17 !important;
+  text-decoration: none;
 }
 body > header nav ul.external li a:hover {
   opacity: 0.7;
@@ -355,8 +357,10 @@ body > footer img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 body > section article {
+  width: 100%;
+  height: auto;
   color: #666;
-  padding-top: 5%;
+  margin: 0;
 }
 body > section article .bigger {
   font-size: 1.2em;
@@ -367,11 +371,11 @@ body > section article .bold {
 body > section article .verde {
   color: #9A9C17 !important;
 }
+body > section article header {
+  padding-top: 5%;
+}
 body > section article header h1 {
-  margin-top: 0;
-  /*verifica responsive*/
-  margin-left: 8.4%;
-  /*verifica responsive*/
+  margin: 0 0 5px 8.4%;
   text-transform: uppercase;
   font-size: 1.5em;
 }
@@ -380,8 +384,6 @@ body > section article header h1 span {
   /*verifica responsive*/
 }
 body > section article div.filetto_titoli {
-  margin-top: 0.2%;
-  /*verifica responsive*/
   width: 24.4%;
   height: 5px;
   /*verifica responsive*/
@@ -523,9 +525,7 @@ article.altro header {
 }
 article.chiese header h2,
 article.altro header h2 {
-  margin-top: 0;
-  /*verifica responsive*/
-  margin-right: 8.4%;
+  margin: 0 8.4% 5px 0;
   /*verifica responsive*/
   padding-right: 100px;
   font-size: 1.5em;
@@ -536,8 +536,6 @@ article.altro div.filetto_titoli {
   padding-right: 100px;
   clear: right;
   float: right;
-  margin-top: 0.2%;
-  /*verifica responsive*/
   width: 32.8%;
   height: 5px;
   /*verifica responsive*/
@@ -572,39 +570,53 @@ article.altro div.filetto_titoli {
 article.chiese .gruppo_immagini,
 article.altro .gruppo_immagini {
   float: left;
+  margin-left: 0.8%;
   width: 66.4%;
   height: 50%;
   margin-top: 3%;
 }
-article.chiese .gruppo_immagini figure,
-article.altro .gruppo_immagini figure {
-  margin-left: 8.4%;
-  margin-bottom: 3%;
+article.chiese .gruppo_immagini a,
+article.altro .gruppo_immagini a {
+  display: block;
   float: left;
   width: 41.2%;
   height: 45%;
-  overflow: hidden;
-  cursor: pointer;
+  margin: 0 0 3% 8.4%;
+  text-decoration: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-article.chiese .gruppo_immagini figure:hover,
-article.altro .gruppo_immagini figure:hover {
+article.chiese .gruppo_immagini a:hover,
+article.altro .gruppo_immagini a:hover {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
-article.chiese .gruppo_immagini figure img,
-article.altro .gruppo_immagini figure img {
-  width: 340px;
-  height: 140px;
-  background-color: #fff;
+article.chiese .gruppo_immagini a:nth-child(2),
+article.altro .gruppo_immagini a:nth-child(2) {
+  margin-left: 3%!important;
 }
-article.chiese .gruppo_immagini figure figcaption,
-article.altro .gruppo_immagini figure figcaption {
+article.chiese .gruppo_immagini a:nth-child(4),
+article.altro .gruppo_immagini a:nth-child(4) {
+  margin-left: 3%!important;
+}
+article.chiese .gruppo_immagini a figure,
+article.altro .gruppo_immagini a figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0!important;
+}
+article.chiese .gruppo_immagini a figure img,
+article.altro .gruppo_immagini a figure img {
+  width: 340px;
+  height: 150px;
+}
+article.chiese .gruppo_immagini a figure figcaption,
+article.altro .gruppo_immagini a figure figcaption {
   position: relative;
   z-index: 9999;
   opacity: 0;
-  top: -140px;
+  top: -160px;
   width: 340px;
-  height: 140px;
+  height: 160px;
   background-color: rgba(154, 156, 23, 0.8);
   color: #fff;
   text-align: center;
@@ -612,8 +624,8 @@ article.altro .gruppo_immagini figure figcaption {
   display: table-cell;
   vertical-align: middle;
 }
-article.chiese .gruppo_immagini figure figcaption .pulsante,
-article.altro .gruppo_immagini figure figcaption .pulsante {
+article.chiese .gruppo_immagini a figure figcaption .pulsante,
+article.altro .gruppo_immagini a figure figcaption .pulsante {
   font-size: 0.7em;
   display: block;
   position: relative;
@@ -628,15 +640,10 @@ article.altro .gruppo_immagini figure figcaption .pulsante {
   text-transform: uppercase;
 }
 article.case header h2 {
-  margin-top: 0;
-  /*verifica responsive*/
-  margin-left: 8.4%;
-  /*verifica responsive*/
+  margin: 0 0 5px 8.4%;
   font-size: 1.5em;
 }
 article.case div.filetto_titoli {
-  margin-top: 0.2%;
-  /*verifica responsive*/
   width: 24.4%;
   height: 5px;
   /*verifica responsive*/
@@ -672,31 +679,41 @@ article.case .gruppo_immagini {
   height: 50%;
   margin-top: 3%;
 }
-article.case .gruppo_immagini figure {
-  margin-right: 8.4%;
-  margin-bottom: 3%;
+article.case .gruppo_immagini a {
+  margin: 0 3% 3% 0 ;
   float: left;
   width: 24.4%;
   height: 45%;
   overflow: hidden;
-  cursor: pointer;
+  text-decoration: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-article.case .gruppo_immagini figure:hover {
+article.case .gruppo_immagini a:hover {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
-article.case .gruppo_immagini figure img {
-  width: 340px;
-  height: 140px;
-  background-color: #fff;
+article.case .gruppo_immagini a:nth-child(1) {
+  margin-left: 5%!important;
 }
-article.case .gruppo_immagini figure figcaption {
+article.case .gruppo_immagini a:nth-child(4) {
+  margin-left: 5%!important;
+}
+article.case .gruppo_immagini a figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0!important;
+}
+article.case .gruppo_immagini a figure img {
+  width: 340px;
+  height: 150px;
+}
+article.case .gruppo_immagini a figure figcaption {
   position: relative;
   z-index: 9999;
   opacity: 0;
-  top: -140px;
+  top: -160px;
   width: 340px;
-  height: 140px;
+  height: 150px;
   background-color: rgba(154, 156, 23, 0.8);
   color: #fff;
   text-align: center;
@@ -704,7 +721,7 @@ article.case .gruppo_immagini figure figcaption {
   display: table-cell;
   vertical-align: middle;
 }
-article.case .gruppo_immagini figure figcaption .pulsante {
+article.case .gruppo_immagini a figure figcaption .pulsante {
   font-size: 0.7em;
   display: block;
   position: relative;

@@ -6,14 +6,14 @@ article#contatti(role="region")
     .filetto_titoli
 
     p.generale
-        != 'Quer saber mais sobre como melhorar a sua qualidade de vida através do <span itemprop=>"makesOffer"></span>Design de Ambientes?'
-        a.outroslinks(href="mailto:contato@simoneheringer.com.br", title="Pe&ccedil;a uma avalia&ccedil;&atilde;o gr&aacute;tis!", target="_blank")
+        != 'Quer saber mais sobre como melhorar a sua qualidade de vida através do <span itemprop="makesOffer"></span>Design de Ambientes?'
+        a.outroslinks(href="mailto:contato@simoneheringer.com.br", title="Pe&cedil;a uma avalia&cedil;&atilde;o gr&acute;tis!", target="_blank")
             br/
             ='Entre em contato'
-        = 'para agendar um encontro e uma avalia&ccedil;&atilde;o gratuita! Vai ser um imenso prazer atende-lo! Você pode utilizar o formulário abaixo ou se preferir, fa&ccedil;a contato, pela nossa'
+        != ' para agendar um encontro e uma avalia&cedil;&atilde;o gratuita! Vai ser um imenso prazer atende-lo! Você pode utilizar o formulário abaixo ou se preferir, fa&cedil;a contato, pela nossa '
         a.outroslinks(href="https://www.facebook.com/SimoneHeringerD", title="Envie uma mensagem pela nossa fanpage!", target="_blank")
-            ='fanpage,'
-        ='telefone ou email.'
+            ='fanpage'
+        =', telefone ou email.'
 
     #info
         h3
@@ -23,18 +23,18 @@ article#contatti(role="region")
             !='&#45; Design de Ambientes e Paisagismo'
         address
             span.evidenzia
-                !='Endere&ccedil;o:'
+                !='Endere&ccedil;o: '
             span(itemprop="location address")
             a.outroslinks(href="https://www.google.com.br/maps/place/Av.+do+Contorno,+6283+-+Funcion%C3%A1rios,+Belo+Horizonte+-+MG,+30110-017/@-19.9402546,-43.9381747,17z/data=!3m1!4b1!4m2!3m1!1s0xa699d06574e923:0xf1fbb6fac3353680!6m1!1e1", title="Veja no google maps", target="_blank")
                 ='Avenida do Contorno, 6.283 | Sala 805 | São Pedro - Belo Horizonte | MG'
             br/
             span.evidenzia
-                ='Telefone:'
+                ='Telefone: '
             span.outroslinks(itemprop="telephone")
                 ='(31) 2510-4372'
             br/
             span.evidenzia
-                ='Email:'
+                ='Email: '
             a.outroslinks(href="mailto:contato@simoneheringer.com.br", title="Escreve para Simone")
                 ='contato@simoneheringer.com.br'
             br/
@@ -46,47 +46,47 @@ article#contatti(role="region")
                     a.redessociais.fa.fa-facebook(href="https://www.facebook.com/SimoneHeringerD", title="Para mais novidades e promo&ccedil;&otilde;es Curta a nossa fanpage.", target="_blank")
                     a.redessociais.fa.fa-instagram(href="https://www.instagram.com/simoneheringers/", title="Instagram de Simone Heringer", target="_blank")
 
-        form#form(autocomplete="off")
-            .contenitore_sx
-                input#nome(type="text")/
-                label(for="nome")
-                    ='Nome'
-                .sfondo
+    form#form(autocomplete="off")
+        .contenitore_sx
+            input#nome(type="text")/
+            label(for="nome")
+                ='Nome'
+            .sfondo
 
-            .contenitore_dx
-                input#sobrenome(type="text")/
-                label(for="sobrenome")
-                    ='Sobrenome'
-                .sfondo
+        .contenitore_dx
+            input#sobrenome(type="text")/
+            label(for="sobrenome")
+                ='Sobrenome'
+            .sfondo
 
-            .clear
+        .clear
 
-            .contenitore_sx
-                input#telefone(type="text")/
-                label(for="telefone")
-                    ='Telefone'
-                .sfondo
+        .contenitore_sx
+            input#telefone(type="text")/
+            label(for="telefone")
+                ='Telefone'
+            .sfondo
 
-            .contenitore_dx
-                input#email(type="text")/
-                label(for="email")
-                    ='Email'
-                .sfondo
+        .contenitore_dx
+            input#email(type="text")/
+            label(for="email")
+                ='Email'
+            .sfondo
 
-            .clear
+        .clear
 
-            .contenitore_c
-                textarea#mensagem
-                label(for="mensagem")
-                    ='Mensagem'
-                .sfondo
+        .contenitore_c
+            textarea#mensagem
+            label(for="mensagem")
+                ='Mensagem'
+            .sfondo
 
-            .clear
+        .clear
 
-            input#bottone(value="ENVIAR", type="button")/
-            input#fred(style="display:none;", type="text")/
+        input#bottone(value="ENVIAR", type="button")/
+        input#fred(style="display:none;", type="text")/
 
-        aside#privacy
-            .maiuscolo
-                ='politìca de privacidade do site'
-            ='O site Simone Heringer - Design de Ambientes e paisagismo processa dados com o objetivo de operar, melhorar o serviço e monitorar denúncias de abusos e cooperar com a aplicação das leis. Nós não vendemos nem distribuímos seus dados pessoais a terceiros. Para avaliar o uso de nosso serviço e para fins estatísticos somente dados anônimos serão utilizados. As informações fornecidas pelo usuário sao usadas somente para: contato como solicitado, fornecimento de das informações requisitadas, avisos necessários e promocionais. Inserindo seus dados no formulario voce concorda com a politica de privacidade do site.'
+    aside#privacy
+        .maiuscolo
+            ='politìca de privacidade do site'
+        ='O site Simone Heringer - Design de Ambientes e paisagismo processa dados com o objetivo de operar, melhorar o serviço e monitorar denúncias de abusos e cooperar com a aplicação das leis. Nós não vendemos nem distribuímos seus dados pessoais a terceiros. Para avaliar o uso de nosso serviço e para fins estatísticos somente dados anônimos serão utilizados. As informações fornecidas pelo usuário sao usadas somente para: contato como solicitado, fornecimento de das informações requisitadas, avisos necessários e promocionais. Inserindo seus dados no formulario voce concorda com a politica de privacidade do site.'

@@ -1,2 +1,38 @@
 include ./../../templates/mixin.jade
-p oi)
+.vs-slider
+    article.vs-section.active
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+    article.vs-section
+
+section#schede(role="region")
+    #contenuto.visible
+        article.contenuti_descrizione
+            header
+                .filetto
+                h1
+                    = 'OAB/MG - Ibirité'
+                    a.fa.fa-chevron-right(href!="{{route('public.progetto_12')}}", title="vai ao pr&oacute;ximo projeto")
+                    a.fa.fa-chevron-left(href!="{{route('public.progetto_10')}}", title="volta ao projeto anterior")
+
+                h2
+                    !='<i class="fa fa-home"></i> Outros - coorporativos <span class="tags">&#35;DesignDeInterioresBH &#35;Reformas &#35;Decora&ccedil;&atilde;oBH &#35;Decora&ccedil;&atilde;oDeInterioresCoorporativos</span>'
+
+                h3
+                    = 'Desenvolver projeto de ambientação do  imóvel alugado para sediar a instituição.'
+            .filetto
+            p
+                !='&quot;Crível característica de quem consegue ou conquista a confiança de alguém.&quot; <br />  A intensão do projeto é reafirmar esta característica  da OAB, apresentando um ambiente que que seja compatível e favorável a isto.'
+                br/
+                br/
+                span.desc
+                    !='<span class="bold">Conceito:</span> Credibilidade'
+                    br/
+                    !='<span class="bold">Caracteristicas essenciais:</span> sobriedade, conforto, funcionalidade.'
+                    br/
+                    !='<span class="bold">Demandas:</span> Ambienta&ccedil;&atilde;o da institui&ccedil;&atilde;o, design de m&oacute;veis, ilumina&ccedil;&atilde;o.'
+
+    ul#navigazione.visible
+        li#apri_chiudi.nonselezionato.fa

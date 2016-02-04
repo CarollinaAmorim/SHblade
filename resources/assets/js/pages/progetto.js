@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     // Initialise the vertical slider
-    //verticalSlider.init();
+    verticalSlider.init();
 
     var CContenitore = $('#contenuto'),
         CAll         = $('.contenuti_descrizione,.contenuti_concept,.contenuti_dettagli1,.contenuti_dettagli2'),

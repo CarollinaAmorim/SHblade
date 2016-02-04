@@ -13,6 +13,7 @@
 
 Route::get('/home', ['as'=>'public.index', 'uses'=>'PublicController@home']);
 Route::get('/contato-e-orçamento-Simone-Heringer', ['as'=>'public.contatti', 'uses'=>'PublicController@contatti']);
+Route::post('/inviomail', ['as'=>'inviomail', 'uses'=>'PublicController@inviomail']);
 Route::get('/Simone-Heringer-portfolio-Design-de-Ambientes', ['as'=>'public.portfolio', 'uses'=>'PublicController@portfolio']);
 Route::get('/pacotes-e-serviços-Design-de-Interiores-e-Paisagismo', ['as'=>'public.servizi', 'uses'=>'PublicController@servizi']);
 Route::get('/processo-criativo-design-de-ambientes', ['as'=>'public.processo', 'uses'=>'PublicController@processo']);

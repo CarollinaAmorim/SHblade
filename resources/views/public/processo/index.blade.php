@@ -44,5 +44,7 @@
 
 @section('jsPagina')
 
+<script src="{{ asset('bower/jquery-ui/jquery-ui.min.js')}}" type="text/javascript"></script>
+<script src="{{ asset('bower/jquery-ui/ui/minified/tooltip.min.js')}}" type="text/javascript"></script>
 <script src="{{ asset('js/processo.min.js')}}" type="text/javascript"></script>@stop
 

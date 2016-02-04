@@ -14,7 +14,33 @@
 
 @section('cssPagina')
 
-<link rel="stylesheet" href="{{ asset('css/progetto_semplice.css') }}" type="text/css"/>@stop
+<link rel="stylesheet" href="{{ asset('css/progetto_completo.css') }}" type="text/css"/>
+<style>
+  .vs-section:nth-of-type(1) {
+      background-image: url('{{asset('img/home/1/1_simone_heringer_portfolio_residencial3.jpg')}}')
+  }
+  
+  .vs-section:nth-of-type(2) {
+      background-image: url('../img/home/2/2_simone_heringer_design_de_igrejas1366.jpg')
+  }
+  
+  .vs-section:nth-of-type(3) {
+      background-image: url('../img/home/3/3_simone_heringer_design_residencial_1366.jpg')
+  }
+  
+  .vs-section:nth-of-type(4) {
+      background-image: url('../img/home/4/4_ig_melo_vianna_design_igrejas.jpg')
+  }
+  
+  .vs-section:nth-of-type(5) {
+      background-image: url('../img/progetto_a/pg1/primeira_igreja_presbiteriana_de_belo_horizonte_sh_2.jpg')
+  }
+  
+  .vs-section:nth-of-type(6) {
+      background-image: url('../img/progetto_a/pg1/primeira_igreja_presbiteriana_de_belo_horizonte_sh_1.jpg')
+  }
+  
+</style>@stop
 
 @section('content')
 
@@ -81,5 +107,8 @@
 
 @section('jsPagina')
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js" type="text/javascript"></script>
 <script src="{{ asset('js/progetto.min.js')}}" type="text/javascript"></script>@stop
 

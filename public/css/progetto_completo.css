@@ -474,6 +474,8 @@ section#schede ul#navigazione {
   float: left;
   position: relative;
   z-index: 999;
+  padding: 0;
+  margin: 0;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
 }

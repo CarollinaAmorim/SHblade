@@ -3,7 +3,11 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Http\Request;
+use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 
 
 class PublicController extends Controller
@@ -24,6 +28,34 @@ class PublicController extends Controller
     }
     public function contatti(){
         return view('public.contatti.index');
+    }
+    public function inviomail(Request $request){
+        $this->validate($request, [
+            'nome' => 'required',
+            'cognome' => 'required',
+            'email'=>'required|email',
+            'numero' => 'numeric|min:8',
+            'messaggio' => 'required'
+        ]);
+
+
+        $first_name = Input::get('nome');
+        $last_name = Input::get ('cognome');
+        $phone_number = Input::get('numero');
+        $email = Input::get ('email');
+        $message = Input::get ('messaggio');
+        $userIpAddress = $_SERVER['REMOTE_ADDR'];
+
+        Mail::send('emails.contatti',[
+            'nome'=>$first_name,
+            'cognome'=>$last_name,
+            'tel'=>$phone_number,
+            'mail'=>$email,
+            'messaggio'=>$message,
+            'ip'=>$userIpAddress
+        ], function($message){
+            $message->to('info@atemporale.it')->subject('Messaggio dal sito www.atemporale.it');
+        });
     }
     public function portfolio(){
         return view('public.portfolio.index');
